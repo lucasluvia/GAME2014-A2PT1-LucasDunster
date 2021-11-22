@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class ButtonBehaviour : MonoBehaviour
 {
@@ -11,13 +13,16 @@ public class ButtonBehaviour : MonoBehaviour
         switch (buttonType)
         {
             case ButtonType.START:
-                Debug.Log("Start");
+                SceneManager.LoadScene("Game");
                 break;
             case ButtonType.INSTRUCTIONS:
-                Debug.Log("Instructions");
+                SceneManager.LoadScene("Instructions");
+                break;
+            case ButtonType.MENU:
+                SceneManager.LoadScene("Menu");
                 break;
             case ButtonType.QUIT:
-                Debug.Log("Quit");
+                Application.Quit();
                 break;
         }
 
