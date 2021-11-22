@@ -4,22 +4,22 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: tileset-sliced_0
+    second: plat1
   - first:
       213: 21300002
-    second: tileset-sliced_1
+    second: plat2
   - first:
       213: 21300004
-    second: tileset-sliced_2
+    second: plat3
   - first:
       213: 21300006
     second: tileset-sliced_3
   - first:
       213: 21300008
-    second: tileset-sliced_4
+    second: pole1
   - first:
       213: 21300010
-    second: tileset-sliced_5
+    second: pole2
   - first:
       213: 21300012
     second: tileset-sliced_6
@@ -73,19 +73,19 @@ TextureImporter:
     second: tileset-sliced_22
   - first:
       213: 21300046
-    second: tileset-sliced_23
+    second: plat4
   - first:
       213: 21300048
-    second: tileset-sliced_24
+    second: plat5
   - first:
       213: 21300050
-    second: tileset-sliced_25
+    second: plat6
   - first:
       213: 21300052
     second: tileset-sliced_26
   - first:
       213: 21300054
-    second: tileset-sliced_27
+    second: pole3
   - first:
       213: 21300056
     second: tileset-sliced_28
@@ -106,13 +106,13 @@ TextureImporter:
     second: tileset-sliced_33
   - first:
       213: 21300068
-    second: tileset-sliced_34
+    second: plat7
   - first:
       213: 21300070
-    second: tileset-sliced_35
+    second: plat8
   - first:
       213: 21300072
-    second: tileset-sliced_36
+    second: plat9
   - first:
       213: 21300074
     second: tileset-sliced_37
@@ -172,16 +172,16 @@ TextureImporter:
     second: Box6
   - first:
       213: 21300112
-    second: tileset-sliced_56
+    second: float1
   - first:
       213: 21300114
-    second: tileset-sliced_57
+    second: float2
   - first:
       213: 21300116
-    second: tileset-sliced_58
+    second: float4
   - first:
       213: 21300118
-    second: tileset-sliced_59
+    second: float5
   - first:
       213: 21300120
     second: tileset-sliced_60
@@ -193,10 +193,10 @@ TextureImporter:
     second: tileset-sliced_62
   - first:
       213: 21300126
-    second: tileset-sliced_63
+    second: float3
   - first:
       213: 21300128
-    second: tileset-sliced_64
+    second: float6
   - first:
       213: 21300130
     second: Box7
@@ -511,7 +511,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tileset-sliced_0
+      name: plat1
       rect:
         serializedVersion: 2
         x: 16
@@ -532,7 +532,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset-sliced_1
+      name: plat2
       rect:
         serializedVersion: 2
         x: 48
@@ -553,7 +553,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset-sliced_2
+      name: plat3
       rect:
         serializedVersion: 2
         x: 80
@@ -595,7 +595,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset-sliced_4
+      name: pole1
       rect:
         serializedVersion: 2
         x: 144
@@ -616,7 +616,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset-sliced_5
+      name: pole2
       rect:
         serializedVersion: 2
         x: 160
@@ -994,7 +994,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset-sliced_23
+      name: plat4
       rect:
         serializedVersion: 2
         x: 16
@@ -1015,7 +1015,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset-sliced_24
+      name: plat5
       rect:
         serializedVersion: 2
         x: 48
@@ -1036,7 +1036,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset-sliced_25
+      name: plat6
       rect:
         serializedVersion: 2
         x: 80
@@ -1078,7 +1078,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset-sliced_27
+      name: pole3
       rect:
         serializedVersion: 2
         x: 128
@@ -1225,7 +1225,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset-sliced_34
+      name: plat7
       rect:
         serializedVersion: 2
         x: 16
@@ -1246,7 +1246,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset-sliced_35
+      name: plat8
       rect:
         serializedVersion: 2
         x: 48
@@ -1267,7 +1267,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset-sliced_36
+      name: plat9
       rect:
         serializedVersion: 2
         x: 80
@@ -1687,7 +1687,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset-sliced_56
+      name: float1
       rect:
         serializedVersion: 2
         x: 16
@@ -1708,7 +1708,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset-sliced_57
+      name: float2
       rect:
         serializedVersion: 2
         x: 32
@@ -1729,7 +1729,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset-sliced_58
+      name: float4
       rect:
         serializedVersion: 2
         x: 64
@@ -1750,7 +1750,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset-sliced_59
+      name: float5
       rect:
         serializedVersion: 2
         x: 80
@@ -1834,7 +1834,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset-sliced_63
+      name: float3
       rect:
         serializedVersion: 2
         x: 32
@@ -1855,7 +1855,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset-sliced_64
+      name: float6
       rect:
         serializedVersion: 2
         x: 64
