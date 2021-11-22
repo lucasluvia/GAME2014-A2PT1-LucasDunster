@@ -1,3 +1,8 @@
+// ButtonBehaviour.cs
+// Lucas Dunster 101230948
+// DLM: 11/23/21
+// sets what buttons do depending on type
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
